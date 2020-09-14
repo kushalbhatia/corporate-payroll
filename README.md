@@ -6,4 +6,3 @@
 4. compute_bonus returns a bonus, between 2%, 5% or a flat $500
 5. I used an employee_id of '400' but you can simply swap out for any number between 1 and 1000
 6. Can be used as a template to calculate corporate employee payroll based on their hire date, seniority, and requisite bonus
-
