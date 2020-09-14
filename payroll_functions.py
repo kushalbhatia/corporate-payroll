@@ -1,4 +1,4 @@
-# Corporate Payroll Function Project:
+# Corporate Payroll Project
 
 # def is defining function, get_salary is calling function and employee_id is the parameter that the function is calling upon:
 def get_salary(employee_id):  # get employees salary

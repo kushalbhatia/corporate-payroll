@@ -1,4 +1,4 @@
-# Python Functions Project - Corporate Payroll
+# Corporate Payroll Project
 
 1. 1000 employee company, with three functions: get_salary, get_grade and compute_bonus using employee_id as the parameter
 2. get_salary returns salary between 50,000 and 150,000 based on employee_id
