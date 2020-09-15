@@ -1,6 +1,6 @@
 # Corporate Payroll Project
 
-# def is defining function, get_salary is calling function and employee_id is the parameter that the function is calling upon:
+# def is defining function, get_salary is calling function and employee_id is the parameter that the function is calling upon
 def get_salary(employee_id):  # get employees salary
     if employee_id < 100:
         salary = 50000
@@ -11,7 +11,7 @@ def get_salary(employee_id):  # get employees salary
     return salary  # return employees salary
 
 
-print(get_salary(400))  # 400 is the employee_id and prints 100000
+get_salary(400)  # 400 is the employee_id and returns 100000
 
 
 def get_grade(employee_id):  # get employees grade
@@ -24,7 +24,7 @@ def get_grade(employee_id):  # get employees grade
     return grade  # return employees grade
 
 
-print(get_grade(400))  # 400 is the employee_id and prints 10
+get_grade(400)  # 400 is the employee_id and returns 10
 
 
 def compute_bonus(employee_id):  # get employees bonus
@@ -39,8 +39,8 @@ def compute_bonus(employee_id):  # get employees bonus
         bonus = small_bonus_percent*salary
     else:
         bonus = base_bonus
-    print(employee_id, salary, grade, bonus)
+    # print(employee_id, salary, grade, bonus)
     return bonus  # return employees salary with bonus
 
 
-print(compute_bonus(400))  # 400 is the employee_id and prints 105000
+compute_bonus(400)  # 400 is the employee_id and returns 105000
