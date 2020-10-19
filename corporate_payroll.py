@@ -1,4 +1,6 @@
-# Corporate Payroll Project
+''' A Python program that calculates a corporate employee’s compensation bonus, based on their salary and
+seniority level '''
+
 
 # def is defining function, get_salary is calling function and employee_id is the parameter that the function is calling upon
 def get_salary(employee_id):  # get employees salary
@@ -39,7 +41,6 @@ def compute_bonus(employee_id):  # get employees bonus
         bonus = small_bonus_percent*salary
     else:
         bonus = base_bonus
-    # print(employee_id, salary, grade, bonus)
     return bonus  # return employees salary with bonus
 
 
